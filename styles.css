@@ -1,62 +1,84 @@
+/* styles.css */
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #ffe6f0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f0f7;
     color: #333;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #ff99cc;
-    color: white;
-    padding: 20px;
+    background-color: #ffccff;
+    color: #333;
     text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ff6699;
 }
 
 nav {
-    background-color: #ff66b2;
-    padding: 10px;
+    background-color: #ff99cc;
+    color: white;
+    padding: 0.5em 0;
+    text-align: center;
 }
 
 nav ul {
     list-style: none;
-    margin: 0;
     padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 1em;
 }
 
 nav ul li a {
-    color: white;
     text-decoration: none;
+    color: white;
     font-weight: bold;
+    transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    color: #ffccff;
 }
 
 main {
-    padding: 20px;
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .post {
-    background-color: white;
-    margin: 20px 0;
-    padding: 20px;
+    background-color: #ffccff;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1.5em;
+    margin-bottom: 2em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+    color: #ff6699;
+    margin-top: 0;
+}
+
+.post p {
+    line-height: 1.6;
 }
 
 footer {
-    background-color: #ff66b2;
+    background-color: #ff99cc;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 1em 0;
     position: fixed;
     width: 100%;
     bottom: 0;
