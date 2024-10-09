@@ -92,3 +92,16 @@ img:hover {
     -webkit-transform:scale(1.5); /* or some other value */
     transform:scale(1.5);
 }
+#wordContainer {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+  
+.word {
+    position: absolute;
+    font-size: 24px;
+    color: #333;
+    font-family: Arial, sans-serif;
+    opacity: 0.7;
+}
