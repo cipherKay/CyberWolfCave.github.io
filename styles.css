@@ -22,7 +22,7 @@ header h1 {
 }
 /* Dropdown Button */
 .dropbtn {
-  background-color: #99bdff;
+  background-color: #04AA6D;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -60,9 +60,9 @@ header h1 {
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #99bdff;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
 
-/* nav {
+nav {
     background-color: #99bdff;
     color: white;
     padding: 0.5em 0;
@@ -91,7 +91,7 @@ nav ul li a {
 nav ul li a:hover {
     color: #ffccff;
 }
-*/    
+
 main {
     padding: 2em;
     max-width: 800px;
